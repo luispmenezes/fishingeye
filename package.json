@@ -1,0 +1,29 @@
+{
+  "name": "fishingeye",
+  "version": "1.0.0",
+  "description": "Scrapper for project sources from FishEye",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luispmenezes/fishingeye.git"
+  },
+  "keywords": [
+    "fisheye",
+    "scraper"
+  ],
+  "author": "Luis Menezes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luispmenezes/fishingeye/issues"
+  },
+  "homepage": "https://github.com/luispmenezes/fishingeye#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
